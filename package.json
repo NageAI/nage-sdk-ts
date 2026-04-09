@@ -1,0 +1,23 @@
+{
+  "name": "@nage/sdk",
+  "version": "0.1.0",
+  "description": "Nage AI TypeScript SDK — source-attributed intelligence",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/test.mjs"
+  },
+  "keywords": ["nage", "sedim", "ai", "varve", "stemma", "llm", "attribution"],
+  "author": "Omer Asim <one@nage.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NageAI/nage-sdk-ts"
+  },
+  "homepage": "https://nage.ai",
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
