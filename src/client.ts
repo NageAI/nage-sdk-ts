@@ -6,7 +6,7 @@ import {
 } from "./types";
 import { NageError, AuthError, RateLimitError, ServerError } from "./errors";
 
-const DEFAULT_BASE_URL = "https://api.models.nage.ai";
+const DEFAULT_BASE_URL = "https://ai.nage.ai";
 
 /** Nage AI TypeScript client. */
 export class NageClient {
